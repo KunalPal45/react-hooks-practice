@@ -7,7 +7,7 @@ import CounterApp from './components/hook -practice/CounterApp'
 import ToggleVisibility from './components/hook -practice/ToggleVisibility'
 import BackgroundColorChanger from './components/hook -practice/BackgroundColorChanger'
 import SimpleForm from './components/hook -practice/SimpleForm'
-import Useeffect from './components/Useeffect'
+
 
 function App() {
  
