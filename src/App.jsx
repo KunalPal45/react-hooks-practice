@@ -4,9 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
-import DocumentTitleCounter from './components/useeffect-practice/DocumentTitleCounter'
-import LiveClock from './components/useeffect-practice/LiveClock'
-import WindowWidthTracker from './components/useeffect-practice/WindowWidthTracker'
+import UserSearch from './components/user-search-practice/UserSearch'
 
 
 function App() {
@@ -15,11 +13,8 @@ function App() {
   return (
     <>
    
-
-    <h2>Task 2: useEffect</h2>
-    <DocumentTitleCounter />
-    <LiveClock/>
-    <WindowWidthTracker/>
+    <UserSearch/>
+   
      
     </>
   )
