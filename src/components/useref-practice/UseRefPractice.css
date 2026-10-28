@@ -1,0 +1,84 @@
+
+/* Page background and layout */
+.useref-container {
+  min-height: 100vh;
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+/* Cards for both tasks */
+.useref-card {
+  background: white;
+  width: 320px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.useref-card h2 {
+  color: #1e293b;
+  margin-bottom: 22px;
+}
+
+.useref-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.useref-input:focus {
+  outline: 2px solid #6366f1;
+  border-color: transparent;
+}
+
+.useref-timer {
+  font-size: 36px;
+  color: #4f46e5;
+  margin: 20px 0;
+}
+
+.useref-button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 16px;
+  margin: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.useref-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.focus-button {
+  background: #4f46e5;
+}
+
+.start-button {
+  background: #16a34a;
+}
+
+.stop-button {
+  background: #dc2626;
+}
+
+.reset-button {
+  background: #64748b;
+}

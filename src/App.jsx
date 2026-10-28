@@ -1,21 +1,14 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+
 import './App.css'
-
-import UserSearch from './components/user-search-practice/UserSearch'
-
+import FocusInput from './components/useref-practice/FocusInput'
+import Stopwatch from './components/useref-practice/Stopwatch'
+import "./components/useref-practice/UseRefPractice.css";
 
 function App() {
- 
-
   return (
     <>
-   
-    <UserSearch/>
-   
-     
+      <FocusInput />
+      <Stopwatch />
     </>
   )
 }
